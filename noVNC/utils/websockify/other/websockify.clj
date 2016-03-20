@@ -178,7 +178,7 @@
 
 (defn start-websockify
   [& {:keys [listen-port target-host target-port web]
-      :or {listen-port 6080
+      :or {listen-port 6070
            target-host "localhost"
            target-port 5900
            }}]
