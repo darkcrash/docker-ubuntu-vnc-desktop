@@ -11,7 +11,7 @@ usage() {
     echo "provides a cut-and-paste URL to go to."
     echo 
     echo "    --listen PORT         Port for proxy/webserver to listen on"
-    echo "                          Default: 6080"
+    echo "                          Default: 6070"
     echo "    --vnc VNC_HOST:PORT   VNC server host:port proxy target"
     echo "                          Default: localhost:5900"
     echo "    --cert CERT           Path to combined cert/key file"
@@ -23,7 +23,7 @@ usage() {
 
 NAME="$(basename $0)"
 HERE="$(cd "$(dirname "$0")" && pwd)"
-PORT="6080"
+PORT="6070"
 VNC_DEST="localhost:5900"
 CERT=""
 WEB=""
